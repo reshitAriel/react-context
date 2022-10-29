@@ -7,11 +7,7 @@ import { UserProvider } from './context/UserContext';
 import { ThemeProvider } from './context/ThemeContext';
 
 ReactDOM.render(
-  <ThemeProvider>
-    <UserProvider>
       <App />
-    </UserProvider>
-  </ThemeProvider>
   ,
   document.getElementById('root')
 );

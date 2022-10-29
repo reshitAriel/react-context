@@ -2,21 +2,19 @@
 //the text in the component should be in the current language of the website, and the classnames should correspond with the current theme
 
 import { useState } from "react";
-import { useTheme } from "../context/ThemeContext";
-import { useUser } from "../context/UserContext";
 
 const UsernameChanger = () => {
-
-
     const [text, setText] = useState("");
-    const {changeUsername} = useUser();
-    const {theme} = useTheme();
+    // 1. 👇 ask for function that will change the username
 
+    // 2. 🌟 ask for the theme color and insert it to all ${''}
+
+    
     return (
-        <div className={`${theme}-theme-clr`}>
+        <div className={`${''}-theme-clr`}>
             What is your name?<br /><br />
-            <input value={text} onChange={e => setText(e.target.value)}  /><br />
-            <button className={`${theme}-theme-button clickable`} onClick={()=> {changeUsername(text)}} >change username</button>
+            <input value={text} onChange={e => setText(e.target.value)}/><br />
+            <button className={`${''}-theme-button clickable`} onClick={() => {}} >change username</button>
         </div>
     );
 }

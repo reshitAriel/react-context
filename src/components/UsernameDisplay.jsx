@@ -1,16 +1,14 @@
 //this component should render the current username
 
-import { useTheme } from "../context/ThemeContext";
-import { useUser } from "../context/UserContext";
-
 const UsernameDisplay = () => {
+    // 1. 👇 ask for the current username and then show it 
 
-    const {username} = useUser()
-    const {theme} = useTheme()
+    // 2. 🌟 ask for the theme color and insert it to all ${''}
+
 
     return (
-        <div className={`${theme}-theme-clr`}> {/* the button's color should match the current theme */}
-            {username}
+        <div className={`${''}-theme-clr`}> {/* the button's color should match the current theme */}
+            {'put here the username instead of this text'}
         </div>
     );
 }
