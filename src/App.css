@@ -41,3 +41,7 @@
   color: whitesmoke;
   background: #282c34;
 }
+
+.clickable{
+ cursor: pointer;
+}
