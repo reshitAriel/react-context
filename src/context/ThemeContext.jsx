@@ -9,7 +9,7 @@ const ThemeContext = React.createContext({})
 export const ThemeProvider = ({ children }) => {
 
     const [theme, setTheme] = useState('light')
-    const [language, setLanguage] = useState('hebrew')
+    const [language, setLanguage] = useState('english')
 
     const toggleTheme = () => {
         setTheme(prev => prev === 'light' ? 'dark' : 'light')
