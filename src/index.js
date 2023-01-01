@@ -5,12 +5,15 @@ import App from './App';
 import * as serviceWorker from './serviceWorker';
 import { UserProvider } from './context/UserContext';
 import { ThemeProvider } from './context/ThemeContext';
+import { LanguageProvider } from './context/LanguageContext';
 
 ReactDOM.render(
   <ThemeProvider>
-    <UserProvider>
-      <App />
-    </UserProvider>
+    <LanguageProvider>
+      <UserProvider>
+        <App />
+      </UserProvider>
+    </LanguageProvider>
   </ThemeProvider>
   ,
   document.getElementById('root')
