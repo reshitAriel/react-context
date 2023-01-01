@@ -1,9 +1,8 @@
+import React from 'react';
 import UsernameChanger from "./components/UsernameChanger";
 import UsernameDisplay from "./components/UsernameDisplay";
 import Buttons from "./components/Buttons";
-
 import './App.css';
-import React from 'react';
 
 const App = () => {
   return (
@@ -13,6 +12,6 @@ const App = () => {
       <Buttons />
     </>
   );
-}
+};
 
 export default App;

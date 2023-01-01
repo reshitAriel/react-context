@@ -18,10 +18,6 @@
   background-color: #282c34;
 }
 
-.dark-theme-clr {
-  color: whitesmoke;
-}
-
 .dark-theme-button {
   margin-top: 20px;
   color: #282c34;
@@ -32,16 +28,12 @@
   background-color: whitesmoke;
 }
 
-.light-theme-clr {
-  color: #282c34;
-}
-
 .light-theme-button {
   margin-top: 20px;
   color: whitesmoke;
   background: #282c34;
 }
 
-.clickable{
- cursor: pointer;
+.clickable {
+  cursor: pointer;
 }

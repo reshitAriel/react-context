@@ -1,15 +1,12 @@
 import ChangeLanguage from "./ChangeLanguage";
-import ChangeTheme from "./ChangeTheme";
 
 const Buttons = () => {
 
-
     return (
-        <div style={{display: 'flex', direction:'ltr'}}>
-            <ChangeTheme />
+        <div style={{ display: 'flex', direction: 'ltr' }}>
             <ChangeLanguage />
         </div>
     );
-}
+};
 
 export default Buttons;
